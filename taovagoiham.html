@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   
+</head>
+<body>
+    <script>
+        function processConfirm(answer) {
+            let result = "";
+            if(answer) {
+                result = "Are you Ok";
+            } else {
+                result = "Cancel";
+            }    
+                return  result;
+            }
+        let processConfir = confirm("Xác nhận");
+        let theAnswer =  processConfirm(confirmAnswer);
+        alert(theAnswer);
+        
+    </script>
+    
+</body>
+</html>
